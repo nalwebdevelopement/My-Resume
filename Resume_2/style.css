@@ -1,0 +1,119 @@
+body{
+
+}
+
+.smcircle{
+  width:100%;
+  border-radius: 50%;
+}
+.introContainer {
+  border: solid black;
+  display: flex;
+  /* height:20vh; */
+  justify-content: space-between;
+  background-size: contain;
+  
+}
+
+.circle {
+  border: solid grey;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 15px;
+  font-display:;
+}
+.intro {
+  border: solid green;
+  width: 60%;
+  margin: 1em;
+  /* background-image:url('https://gifdb.com/images/high/flowing-water-background-3or1h2fe6iuieki4.gif'); */
+  background-size:cover;
+}
+
+.infoContainer {
+  border: solid black;
+  margin: 1em;
+  /* height: 80vh; */
+  background-size:contain;
+  display: flex;
+}
+
+.dropContainer {
+  border: solid black;
+  padding:1em;
+  margin: 1em;
+  border-width: 0.2px;
+  width: 40%;
+}
+.displayContainer {
+  /* border: solid ; */
+  margin: 1em;
+  width: 60%;
+}
+.title {
+  text-align: center;
+}
+.description {
+  text-align: center;
+  padding: 5px;
+  font-family:Abril Fatface serif;
+  font-size:22px;
+}
+.symbolContainer {
+  border: solid black;
+  border-width:.2px;
+border-radius:10px;
+  /* height:90px; */
+}
+.symParent {
+  /* border: solid green; */
+  border-width: 0.2px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin: 1em;
+}
+.icon {
+  border: solid grey;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.texas {
+  /* border: solid orange; */
+  width: 60%;
+  text-align: right;
+}
+.sectionContainer {
+  border: solid black;
+  margin: 1em;
+  background-color: #333C3F;
+  color: white;
+  display:flex;
+  flex-wrap:wrap;
+}
+.toolbar {
+  border: solid white;
+  text-align: center;
+  background-color: navy;
+}
+.date {
+  text-align: center;
+  margin: 1em;
+}
+.eduPic {
+  border-radius: 50%;
+  margin-left: 15%;
+  height: 60px;
+}
+.eduContainer {
+  border: solid white;
+  margin: 1em;
+}
+.eduContainer:hover {
+  border: solid lime;
+  font-size:23px;
+  transition:3s;
+  margin: 1em;
+}

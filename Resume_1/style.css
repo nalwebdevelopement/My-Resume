@@ -30,6 +30,7 @@ body{
 {
     width:100%;
    
+   
 }
 .left-container
 {
@@ -47,10 +48,60 @@ text-align: center;
     width:200px;
     height:200px;
     border-radius: 50%;
+    margin-bottom: 1rem;
 
+}
+.profile-name
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 2em;
+    width:10vm;
+    padding-bottom: 1rem;
+   
+}
+.profile-desg
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1em;
+    font-style: italic;
+}
+.class-info
+{
+    margin: 2em;
+    margin-bottom: 1em;
+}
+.heading-text
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 20px;
+    width: 100;
+
+}
+.class-info ul
+{
+    align-content:center;
+    
+    padding:2rem,0;
+}
+.class-info ul li{
+    padding: .4rem 0;
+    display:flex;
+    align-items: center;
+    color:beige;
+}
+.class-info ul li i
+{
+    padding-right: 1rem;
+    font-size: 1.1 rem;
+    color: #2d9cdb;
+    font-size:1.5;
 }
 
 
+/*
 .topContainer
 {
       
@@ -69,4 +120,4 @@ text-align: center;
       border: 2px solid pink;
       display:flex;
 
-}
+}*/

@@ -17,7 +17,8 @@ body{
     width:80%;
     margin: 2rem auto;
    display:grid;
-   grid-template-columns: repeat(7,1fr);
+   /*grid-template-columns: repeat(7,1fr);*/
+   grid-template-columns: auto auto auto auto auto auto auto;
     
 }
 .left-section
@@ -99,6 +100,24 @@ text-align: center;
     color: #2d9cdb;
     font-size:1.5;
 }
+.container
+{
+    padding: 2%;
+}
+.skills-main ul
+{
+    align-content:center;
+    padding:2rem,0;
+    list-style:circle
+} 
+
+.skills-main ul li{
+    padding: .4rem 0;
+    display:flex;
+    align-items: center;
+    color:beige;
+}
+
 
 
 /*
